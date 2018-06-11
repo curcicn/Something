@@ -1,0 +1,460 @@
+body{
+	margin: 0px;
+}
+body, html{
+    height: 100%;
+}
+
+
+body:before {
+    background: #f1eb24;
+    position: absolute;
+    content: " ";
+    height: 10px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.row2 {
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+/* Clearfix */
+.row2::before,
+.row2::after {
+  display: table;
+  content: '';
+}
+
+.row2::after {
+  clear: both;
+}
+  
+
+.navigation{
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #ececec;
+	width: 100%;
+	height: 110px;
+	padding-bottom: 40px;
+}
+.nav-list{
+	display: inline-block;
+	padding-left: 0px;
+
+}
+
+.list{
+	display: inline-block;
+}
+
+ul{
+	-webkit-padding-start: 40px;
+}
+
+.lista{
+padding-left: 0px;
+padding-right: 0px;
+
+}
+
+
+.wraper{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.left{
+	float: left;
+	text-align: right;
+	width: 40%;
+}
+.right{
+	float: right;
+	width: 40%;
+	text-align: left;
+}
+.midlle{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	width: 20%;
+
+}
+#logo{
+	height: 231px;
+	width: 150px;
+}
+.left, .midlle, .right{
+	display: inline-block;
+}
+
+.li{
+	color: #262938;
+    padding: 0 18px;
+    font-size: 20px;
+    line-height: 46px;
+    font-weight: bold;
+    display: inline-block;
+}
+.nav-list{
+display: block;
+}
+.hero {
+	background: url('hero.gif');
+	min-height: 530px;
+	width: 100%;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: center top;
+ 
+}
+
+.sesto{
+	position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.prvo, .drugo, .trece, .cetvrto, .peto{
+	padding: 0 18px;
+    font-size: 20px;
+    line-height: 46px;
+    font-weight: bold;
+    display: inline;
+}
+.search{
+	display: block;
+	width: 100%;
+}
+
+.naslov{
+	text-align: center;
+}
+#pretraga{
+	margin-bottom: 50px;
+}
+.in{
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	-webkit-appearance: textfield;
+    background-color: white;
+    user-select: text;
+    cursor: auto;
+    padding: 6px;
+    border-width: 2px;
+    border-style: inset;
+}
+
+.inp{
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.dugme{
+	padding: 5px 20px;
+	border: 2px solid #E8444F;
+	color: #E8444F;
+	background-color: white;
+	border-radius: 4px;
+	font-size: 18px;
+}
+.post{
+    border: 0px;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,.15);
+	padding: 15px;
+	position: relative;
+	margin-bottom: 130px;
+}
+.box-h{
+	padding-left: 20px;
+	color: white;
+	vertical-align: middle;
+	display: inline-block;
+
+}
+.box-hed{
+	float: left;
+	position: absolute;
+	display: table;
+	width: 100%;
+	top: -30px;
+	right: 20px;
+	height: 80px;
+	background-color: #555555;
+	clear: both;
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+
+}
+.tekst{
+	padding-top: 10px;
+	margin-top: 90px;
+}
+
+box-hed:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+h1, h2, h3, h4, p, li{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.nas::before{
+	content: url(light.png);
+	align-content: center;
+}
+
+.footer::before{
+	content: '';
+	content: url(share.png);
+	align-content: center;
+}
+
+.bottom{
+	background-color: #f1eb24;
+	display: block;
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+	padding-left: 20px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	left: 0px;
+	clear: both;
+}
+
+.bottom:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main:after {
+    background: black;
+    display: block;
+    content: " ";
+    height: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.contact-form{
+	text-align: center;
+}
+
+.mini-logo{
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 130px;
+	text-align: center;
+
+}
+
+
+
+.footer-h{
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+bottom: 60px;
+}
+
+.veci{
+font-size: 36px;
+}
+
+.manji{
+font-size:	24px;
+}
+
+.wrapit{
+	max-width: 530px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-left{
+	float: left;
+	position: relative;
+	padding-right: 0px;
+
+}
+.footer-right{
+	position: relative;
+	text-align: left;
+	padding-left: 20px;
+
+}
+.pitanje{
+display: block;
+width: 262px;
+max-width: 262px;
+height: 160px;
+margin-bottom: 10px;
+}
+.mejl{
+display: inline-block;
+position: relative;
+}
+
+.mejl{
+text-align: left !important;
+width: 60%;
+margin-right: 10px;
+padding: 7px 0px;
+}
+.strelica{
+display: inline-block;
+position: relative;
+padding: 5px 28px;
+border: 2px solid red;
+max-width: 100%;
+float: right;
+border-radius: 4px;
+}
+.lista{
+	list-style: none;
+}
+li{
+	text-align: left !important;
+}
+
+.footer-right p{
+font-size: 14px;
+}
+.footer-right h3{
+	font-size: 26px;
+}
+
+.footer-background{
+	background-color: #ececec;
+}
+
+.copyright{
+	display: block;
+	background-color: #000416;
+	width: 100%;
+	float: bottom;
+	margin: 0px; 
+	position: relative;
+	margin-bottom: -200px;
+	margin-top: 30px;
+}
+
+.copy{
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+}
+
+.copy-wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;}
+
+.col-6{
+  float: left;
+
+  /* Gutters:
+   * Each column is padded by half-a-gutter on each side,
+   *
+   * Half a gutter is 10px, 10/960 (context) = 1.041666%
+   *
+   */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.menu-link{
+	display: inline-block;
+	padding: 0 18px;
+    font-size: 20px;
+    line-height: 46px;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 640px) {
+.menu-link{
+	font-size: 16px;
+}
+
+.middle{
+	width: 30%;
+}
+
+.right{
+	width: 30%;
+	text-align: left;
+}
+
+.left{
+	width: 40%;
+	text-align: right;
+}
+
+#logo{
+	width: 80px;
+    position: relative;
+    bottom: 80px;
+}
+
+.special{
+	padding-left: 0px;
+}
+
+.list{
+	font-size: 16px;
+}
+
+.prvo. .drugo, .trece{
+padding-left: 0px;	
+}
+
+.cetvrto, .peto{
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: left;
+}
+.wraper{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+li.list.prvo{
+	padding-left: 0px;
+}
+
+.sesto{
+	left: 50%;
+}
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
